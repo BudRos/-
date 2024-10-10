@@ -1,24 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Профіль користувача</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        header {
+            background-color: lightblue;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-size: 24px;
+        }
+        .profile {
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 5px;
+            max-width: 400px;
+            margin: auto;
+        }
+        .profile-pic {
+            width: 150px; /* Встановіть бажану ширину */
+            border-radius: 50%;
+        }
+        #user-name {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .interest {
+            list-style-type: square; /* Наприклад, квадратні маркери */
+            padding-left: 20px;
+        }
+        button {
+            margin: 5px;
+            padding: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
 
-   <head>
+<header>
+    Профіль користувача
+</header>
+
+<div class="profile">
+    <img src="path/to/user-image.jpg" alt="Зображення користувача" class="profile-pic">
+    <h2 id="user-name">Ім'я Користувача</h2>
+    <p>Це блок з інформацією про користувача. Тут можна додати короткий опис.</p>
     
-    <link rel="stylesheet" type="text/css" herf="style.css.txt">
-<style type="text/css">
-    p {
-        color: #555
-        text-align justify;
-    }
+    <h3>Інтереси:</h3>
+    <ul>
+        <li class="interest">Читання</li>
+        <li class="interest">Подорожі</li>
+        <li class="interest">Спорт</li>
+        <li class="interest">Музика</li>
+    </ul>
+    
+    <button>Додати в друзі</button>
+    <button>Повідомлення</button>
+</div>
 
-</style>
-     <meta charset="utf-8" />
-      <title>Робота в процесі</title> 
-   </head>
-  
-   <body>
-    <a herf="URL-file:///C:/Users/budro/OneDrive/Desktop/Work/index.html" title="a herf" Style=color:blue; text-decoration: none"> Привіт!
-
-        Я зараз вчуся програмувати сайти :3</a>
-   </body>
-   
-   </html>
+</body>
+</html>
